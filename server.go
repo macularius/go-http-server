@@ -12,12 +12,12 @@ func main() {
 
 	host = flag.String("host", "", `HTTP server's host. Default: "localhost"`)
 	port = flag.String("port", "8080", `HTTP server's port. Default: "8080"`)
-	dir = flag.String("dir", "./public", `HTTP server's dir. Default: "./public"`)
+	dir = flag.String("dir", "./root", `HTTP server's dir. Default: "./root"`)
 
 	flag.Parse()
 
 	log.Printf("Server listen %s:%s. Dir: %s\n", *host, *port, *dir)
 
-	// server for './public' dir
+	// server for './root' dir
 	log.Fatal(http.ListenAndServe(net.JoinHostPort(*host, *port), http.FileServer(http.Dir(*dir))))
 }
