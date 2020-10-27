@@ -7,7 +7,7 @@ GO version 1.14.4
 ## Flags
 
     -dir string
-        HTTP server's dir. Default: "./root" (default "./root")
+        HTTP server's dir. Default: "./../root" (default "./../root")
     -host string
         HTTP server's host. Default: "localhost"
     -port string
