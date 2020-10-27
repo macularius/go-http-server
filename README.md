@@ -12,3 +12,17 @@ GO version 1.14.4
         HTTP server's host. Default: "localhost"
     -port string
         HTTP server's port. Default: "8080" (default "8080")
+        
+## Structure
+    .
+    ├── root
+    │   ├── public
+    |   |   ├── css
+    |   |   |   └── main.css
+    |   |   ├── fonts
+    |   |   ├── img
+    |   |   └── js
+    |   |       └── main.js
+    │   └── index.html
+    ├── README.md
+    └── server.go
