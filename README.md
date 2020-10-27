@@ -1,6 +1,7 @@
 ## GO HTTP Server
 
 Serves HTTP requests for working with files in a directory
+GO version 1.14.4
 
 ## Flags
 
