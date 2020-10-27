@@ -15,6 +15,9 @@ GO version 1.14.4
         
 ## Structure
     .
+    ├── bin
+    │   ├── server
+    │   └── server.exe
     ├── root
     │   ├── public
     |   |   ├── css
